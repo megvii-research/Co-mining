@@ -4,7 +4,7 @@ This repository is an official implementation of the AAAI 2021 paper [Co-mining:
 
 ## Introduction
 
-**TL; DR.** Co-ming is a self-supervised learning framework for Sparsely Annotated Object Detection.
+**TL; DR.** Co-ming is a self-supervised learning framework for sparsely annotated object detection.
 
 # ![pipeline](./co-mining.png)
 
@@ -51,11 +51,11 @@ pods_test --num-gpus 8 MODEL.WEIGHTS /path/to/your/model.pth
 
 | Model | Multi-scale training | AP (minival) | Link |
 |:--- |:--------------------:|:-------:|:---:|
-| [Comining_RetinaNet_Res50_FULL] | No | 36.8 | [download](https://drive.google.com/drive/folders/1T2I_HtHDCOu2i_iamizytwJ5VC_mivmM?usp=sharing)
-| [Comining_RetinaNet_Res50_EASY] | No | 35.4 | [download](https://drive.google.com/drive/folders/1T2I_HtHDCOu2i_iamizytwJ5VC_mivmM?usp=sharing)
-| [Comining_RetinaNet_Res50_HARD] | No | 31.8 | [download](https://drive.google.com/drive/folders/1T2I_HtHDCOu2i_iamizytwJ5VC_mivmM?usp=sharing)
-| [Comining_RetinaNet_Res50_EXTREME] | No | 23.0 | [download](https://drive.google.com/drive/folders/1T2I_HtHDCOu2i_iamizytwJ5VC_mivmM?usp=sharing)
-| [Comining_RetinaNet_Res101_MISS50P] | No | 33.9 | [download](https://drive.google.com/drive/folders/1T2I_HtHDCOu2i_iamizytwJ5VC_mivmM?usp=sharing)
+| Comining_RetinaNet_Res50_Full | No | 36.8 | [download](https://drive.google.com/drive/folders/1T2I_HtHDCOu2i_iamizytwJ5VC_mivmM?usp=sharing)
+| Comining_RetinaNet_Res50_Easy | No | 35.4 | [download](https://drive.google.com/drive/folders/1T2I_HtHDCOu2i_iamizytwJ5VC_mivmM?usp=sharing)
+| Comining_RetinaNet_Res50_Hard | No | 31.8 | [download](https://drive.google.com/drive/folders/1T2I_HtHDCOu2i_iamizytwJ5VC_mivmM?usp=sharing)
+| Comining_RetinaNet_Res50_Extreme | No | 23.0 | [download](https://drive.google.com/drive/folders/1T2I_HtHDCOu2i_iamizytwJ5VC_mivmM?usp=sharing)
+| Comining_RetinaNet_Res101_Miss50p | No | 33.9 | [download](https://drive.google.com/drive/folders/1T2I_HtHDCOu2i_iamizytwJ5VC_mivmM?usp=sharing)
 
 ## Citing Co-mining
 If you find Co-mining useful to your research, please consider citing:
